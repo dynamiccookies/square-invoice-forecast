@@ -1,0 +1,8 @@
+# Local Square credentials and settings
+config.php
+
+# Common local/editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
