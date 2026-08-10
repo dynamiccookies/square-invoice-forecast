@@ -4,17 +4,20 @@ declare(strict_types=1);
 /*
  * Square Invoice Forecast configuration template.
  *
- * Replace REPLACE_WITH_YOUR_SQUARE_ACCESS_TOKEN with the production access
- * token from your Square Developer Dashboard after copying this file to
- * config.php. Never commit the populated config.php file.
+ * Copy this file to config.php and replace the placeholder access token.
+ * Never commit the populated config.php file.
  */
 
 return [
+    // Use 'private' for restricted installations.
+    // Change to 'public' when the report is intentionally publicly accessible.
+    'installation_mode' => 'private',
+
     'square_access_token' => 'REPLACE_WITH_YOUR_SQUARE_ACCESS_TOKEN',
     'square_environment' => 'production',
     'square_api_version' => '2026-07-15',
 
-    // Optional. Leave empty to include every active Square location.
+    // Leave empty to include every active Square location.
     // For specific locations: ['LOCATION_ID_1', 'LOCATION_ID_2']
     'square_location_ids' => [],
 
