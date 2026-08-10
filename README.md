@@ -9,7 +9,7 @@ A standalone PHP dashboard that uses live data from Square's API to forecast out
 - Expands every outstanding deposit, milestone, installment, or balance into an individual payment row.
 - Summarizes past-due, due-today, future-scheduled, and total-outstanding amounts.
 - Displays expected payments by month with payment counts and calendar-year dividers.
-- Filters the table by one or multiple selected chart bars.
+- Filters the table by one or multiple selected chart bars and displays their combined amount and payment count.
 - Sorts payment details by invoice number, client, event date, or payment due date.
 - Links each invoice number to its Square invoice page or the Square Invoices dashboard.
 - Highlights only past-due and due-today payment-date cells.
